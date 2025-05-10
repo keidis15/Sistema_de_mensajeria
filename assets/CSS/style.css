@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  color: #1b1f21;
+  font-size: 16px;
+
+  .container-contacts {
+    min-height: 100vh;
+    flex-basis: 50vh;
+    border: 0.11em solid #e8ebe4;
+
+    .container-user {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.11em solid #e8ebe4;
+      padding: 0.27em;
+
+      .user {
+        display: flex;
+        padding: 0.55em;
+
+        img {
+          width: 3.125em;
+          height: 3.125em;
+          aspect-ratio: 1/1;
+          object-fit: cover;
+          border-radius: 50%;
+          margin-right: 0.55em;
+          border: 0.18em solid #e8ebe4;
+        }
+        .date {
+          font-family: "Open Sans", sans-serif;
+          text-align: star;
+
+          .title {
+            font-weight: 500;
+          }
+          .active {
+            color: #828485;
+            font-weight: 300;
+            font-size: small;
+          }
+        }
+      }
+
+      .icon {
+        i {
+          color: #828485;
+          font-size: 1.38em;
+          margin: 0.3em;
+          text-align: center;
+        }
+      }
+    }
+
+    .btn-chat {
+      min-width: 70%;
+      padding: 2.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 0.11em solid #e8ebe4;
+
+      .btn {
+        padding: 0.625em 2.25em;
+        text-align: center;
+        background-color: #a491d2;
+        border: none;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.93em;
+        font-weight: 400;
+      }
+    }
+
+    .contacts {
+      display: flex;
+      padding: 0.62em 0 0.62em 1.87em;
+      justify-content: start;
+      align-items: center;
+      text-align: star;
+      gap: 0.62em;
+      border-bottom: 0.12em solid #e8ebe4;
+
+      img {
+        width: 3.75em;
+        height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 0.1875em solid #e8ebe4;
+      }
+      .chat {
+        p {
+          font-size: 0.87em;
+          padding-top: 0.18em;
+          font-family: "Open Sans", sans-serif;
+        }
+
+        h2 {
+          font-size: 1em;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+    }
+  }
+  .container-chat {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.87em;
+
+    img {
+      width: 16.6em;
+      border-radius: 0.65em;
+    }
+
+    .content-chat {
+      .name-chat {
+        font-family: "Roboto", sans-serif;
+        font-size: 2.81em;
+      }
+      .text-chat {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.56em;
+      }
+    }
+  }
+}
