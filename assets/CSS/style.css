@@ -19,11 +19,12 @@
       justify-content: space-between;
       align-items: center;
       border-bottom: 0.11em solid #e8ebe4;
-      padding: 0.27em;
+      padding: 0.27em 1em;
+      
 
       .user {
         display: flex;
-        padding: 0.55em;
+        padding: 0.55em ;
 
         img {
           width: 3.125em;
